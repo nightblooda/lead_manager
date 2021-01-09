@@ -1,10 +1,15 @@
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react'
 import ReactDOM from 'react-dom' 
+import Header from './layouts/Header';
+import Dashboard from './leads/Dashboard';
 
 class App extends Component {
     render() {
         return (
-            <h1>React App</h1>
+            <Fragment>
+                <Header />
+                <Dashboard />
+            </Fragment>
         )
     }
 }
