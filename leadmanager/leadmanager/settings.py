@@ -121,11 +121,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-# import os
-# # Add these new lines
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'frontend/static'),
-)
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
