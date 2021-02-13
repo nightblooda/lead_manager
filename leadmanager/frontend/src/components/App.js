@@ -14,7 +14,7 @@ import { Provider } from 'react-redux'
 import store from '../store'
 import Alerts from './layouts/Alerts';
 
-import { LoadUser } from '../actions/auth'
+import { loadUser } from '../actions/auth'
 
 const alertOptions = {
     timeout: 3000,
@@ -23,7 +23,7 @@ const alertOptions = {
 
 class App extends Component {
     componentDidMount() {
-        store.dispatch(LoadUser())
+        store.dispatch(loadUser())
     }
 
     render() {
