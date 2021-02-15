@@ -1,5 +1,11 @@
 # lead_manager
 
+## Screenshots
+![alt text](https://github.com/nightblooda/lead_manager/blob/main/leadmanager/screenshots/login.png?raw=true)
+![alt text](https://github.com/nightblooda/lead_manager/blob/main/leadmanager/screenshots/register.png?raw=true)
+![alt text](https://github.com/nightblooda/lead_manager/blob/main/leadmanager/screenshots/dashboard.png?raw=true)
+![alt text](https://github.com/nightblooda/lead_manager/blob/main/leadmanager/screenshots/alert.png?raw=true)
+
 
 ## Python3 virtual environment setup
 Remove previously installed pipenv throught python3 because it was not working well before.\
